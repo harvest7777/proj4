@@ -1,5 +1,5 @@
-# CPU Scheduling Algorithms Implementation
-## CECS 326 - Operating Systems - Project 4
+# Group Project 4: CPU Scheduling Algorithms 
+## CECS 326: Operating Systems SEC02
 
 ### Team Members
 - Ryan Tran ( ID: 031190716)
