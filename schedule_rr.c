@@ -204,7 +204,6 @@ void schedule()
     printf("Total CPU Time: %d\n", current_time);
     printf("Average Wait Time: %.2f\n", (float)total_wait / task_count);
     printf("Average Turnaround Time: %.2f\n", (float)total_turnaround / task_count);
-    printf("Turnaround Time: %.2f\n", (float)total_turnaround);
 
     // Clean up memory( Resources: https://stackoverflow.com/questions/9069205/how-do-i-free-memory-in-c)
     free(remaining_burst);

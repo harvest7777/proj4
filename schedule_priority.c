@@ -120,5 +120,4 @@ void schedule()
     printf("Total CPU Time: %d\n", current_time);
     printf("Average Wait Time: %.2f\n", (float)total_wait_time / task_count);
     printf("Average Turnaround Time: %.2f\n", (float)total_turnaround_time / task_count);
-    printf("Turnaround Time: %.2f\n", (float)total_turnaround_time);
 }

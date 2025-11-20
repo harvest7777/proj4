@@ -103,7 +103,6 @@ void schedule()
     printf("Total CPU Time: %d\n", current_time);
     printf("Average Wait Time: %.2f\n", (float)total_wait_time / task_count);             // Resources :From professor slide number 14
     printf("Average Turnaround Time: %.2f\n", (float)total_turnaround_time / task_count); // Resources :From professor slide number 14
-    printf("Turnaround Time: %.2f\n", (float)total_turnaround_time);
 
     // We need to clean up memory( Resources: https://stackoverflow.com/questions/9069205/how-do-i-free-memory-in-c)
     while (head != NULL)
